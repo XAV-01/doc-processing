@@ -138,15 +138,12 @@ app.post('/login', function(req, res) {
 
   patientLogin.then(function(id) {
 
-
     console.log(id)
     res.send({
       id: id
     });
 
-
   })
-
 })
 
 // Bootstrap application settings
