@@ -109,7 +109,7 @@ app.get('/measurements', function(req, res) {
     smokerstatus: 'Ancien fumeur',
     dia: 88,
     sys: 130,
-    bmi: 21,7,
+    bmi: 21.7,
     bmirange: 'normal',
     weight: 72,
     height: 1.82
