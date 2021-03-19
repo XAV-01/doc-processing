@@ -1,21 +1,21 @@
 {
-  "name": "Example",
+  "name": "doc-processing",
   "version": "1.0.0",
-  "description": "Example health prototype",
+  "description": "Document processing prototype",
   "main": "app.js",
   "scripts": {
     "start": "node app.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/IBM/health-records-system"
+    "url": "git+https://github.com/XAV-01/doc-processing"
   },
-  "author": "Anton McConville",
+  "author": "K",
   "license": "EPL-1.0",
   "bugs": {
-    "url": "https://github.com/IBM/health-records-system"
+    "url": "https://github.com/XAV-01/doc-processing"
   },
-  "homepage": "https://github.com/IBM/health-records-system",
+  "homepage": "https://github.com/XAV-01/doc-processing",
   "dependencies": {
     "body-parser": "^1.18.3",
     "cfenv": "^1.1.0",
