@@ -56,15 +56,15 @@ app.get('/info', function(req, res) {
   if (CURRENTMODE == MODE.TEST) {
     patientdata = {
       "personal": {
-        "name": "Ralph DAlmeida",
+        "name": "Paul Person",
         "age": 38,
-        "gender": "male",
-        "street": "34 Main Street",
-        "city": "Toronto",
-        "zipcode": "M5H 1T1"
+        "gender": "Homme",
+        "street": "1 rue de la Pax",
+        "city": "Paris",
+        "zipcode": "75001"
       },
-      "medications": ["Metoprolol", "ACE inhibitors", "Vitamin D"],
-      "appointments": ["2018-01-15 1:00 - Dentist", "2018-02-14 4:00 - Internal Medicine", "2018-09-30 8:00 - Pediatry"]
+      "medications": ["Vitamine C", "Vitamine C", "Vitamin K"],
+      "appointments": ["2021-01-15 1:00 - Dentiste", "2021-02-14 4:00 - Généraliste", "2021-09-30 8:00 - Opthmalmogue"]
     }
 
     res.send(patientdata);
@@ -109,10 +109,10 @@ app.get('/measurements', function(req, res) {
     smokerstatus: 'Former smoker',
     dia: 88,
     sys: 130,
-    bmi: 19.74,
+    bmi: 21,7,
     bmirange: 'normal',
-    weight: 54.42,
-    height: 1.6603
+    weight: 72,
+    height: 1.82
   }
 
     res.send(measurements);

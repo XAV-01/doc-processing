@@ -1,6 +1,6 @@
-# Patient Health Records - App Modernization with RedHat OpenShift
+# Document processing - App Automation with Cloud PAK for Automation and RedHat OpenShift
 
-This project is a patient records user interface for a conceptual health records system. The UI is programmed with open standards JavaScript and modern, universal CSS, and HTML5 Canvas for layout.
+This project is a document upload user interface for a conceptual upload system. The UI is programmed with open standards JavaScript and modern, universal CSS, and HTML5 Canvas for layout.
 
 The UI is served by a simple Node.JS Express server, and the overall project goals are:
 
