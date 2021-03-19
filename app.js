@@ -106,7 +106,7 @@ app.get('/measurements', function(req, res) {
   if (CURRENTMODE == MODE.TEST) {
 
   measurements = {
-    smokerstatus: 'Former smoker',
+    smokerstatus: 'Ancien fumeur',
     dia: 88,
     sys: 130,
     bmi: 21,7,
